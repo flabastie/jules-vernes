@@ -1,5 +1,5 @@
-# word2vec pricject Jules Vernes
+# word2vec project Jules Vernes
 
-http://abu.cnam.fr/index.html 
+data : http://abu.cnam.fr/index.html 
 
-(licence ABU http://abu.cnam.fr/cgi-bin/donner_licence)
+licence :  http://abu.cnam.fr/cgi-bin/donner_licence
