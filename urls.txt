@@ -1,0 +1,23 @@
+http://abu.cnam.fr/cgi-bin/donner_html?ballon1
+http://abu.cnam.fr/cgi-bin/donner_html?begum2
+http://abu.cnam.fr/cgi-bin/donner_html?blocus3
+http://abu.cnam.fr/cgi-bin/donner_html?bounty1
+http://abu.cnam.fr/cgi-bin/donner_html?robur1
+http://abu.cnam.fr/cgi-bin/donner_html?tdm80j2
+http://abu.cnam.fr/cgi-bin/donner_html?tlun3
+
+
+scrapy genspider ballon abu.cnam.fr/cgi-bin/donner_html?ballon1
+scrapy genspider begum abu.cnam.fr/cgi-bin/donner_html?begum2
+scrapy genspider blocus abu.cnam.fr/cgi-bin/donner_html?blocus3
+scrapy genspider bounty abu.cnam.fr/cgi-bin/donner_html?bounty1
+scrapy genspider robur abu.cnam.fr/cgi-bin/donner_html?robur1
+scrapy genspider tdm80 abu.cnam.fr/cgi-bin/donner_html?tdm80j2
+scrapy genspider terrelune abu.cnam.fr/cgi-bin/donner_html?tlun3
+
+scrapy genspider romans abu.cnam.fr/cgi-bin/donner_html?ballon1 
+ 
+
+['http://abu.cnam.fr/cgi-bin/donner_html?ballon1/', 'http://abu.cnam.fr/cgi-bin/donner_html?begum2/', 'http://abu.cnam.fr/cgi-bin/donner_html?blocus3/', 'http://abu.cnam.fr/cgi-bin/donner_html?bounty1/', 'http://abu.cnam.fr/cgi-bin/donner_html?robur1/', 'http://abu.cnam.fr/cgi-bin/donner_html?tdm80j2/', 'http://abu.cnam.fr/cgi-bin/donner_html?tlun3/']
+
+r = scrapy.Request(url="http://abu.cnam.fr/cgi-bin/donner_html?ballon1/"
